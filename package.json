@@ -1,0 +1,24 @@
+{
+  "name": "Constructor-Word-Guess",
+  "version": "1.0.0",
+  "description": "Creating Word Guess Command Line game using Constructor Functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jponly/Constructor-Word-Guess.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jponly/Constructor-Word-Guess/issues"
+  },
+  "homepage": "https://github.com/jponly/Constructor-Word-Guess#readme",
+  "dependencies": {
+    "inquirer": "^6.1.0",
+    "prompt": "^1.0.0"
+  }
+}
