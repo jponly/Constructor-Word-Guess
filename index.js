@@ -1,6 +1,7 @@
 const Word = require('./word.js');
 const inquirer = require('inquirer');
-// CAUTION: MAY NOT RUN. Issues in Terminal have arised. Looking up issues and working to fix to make game run //
+// CAUTION: GAME WILL RUN BUT NOT IN THE WAY DESIRED. Looking up issues and working to fix to make game run according
+// to README.md
 var target;
 var targetWord;
 var guesses;
@@ -21,7 +22,7 @@ const questions = [
         name : 'letterGuessed',
         message : 'Guess a letter',
         validate: function (value) {
-            var valid = (value.length === 1) && ('abcdefghijklmnopqrstuvwxyz'.indexOf(value.CharAt(0).toLowerCase()) !== -1);
+            var valid = (value.length === 1) && ('abcdefghijklmnopqrstuvwxyz'.indexOf(value.charAt(0).toLowerCase()) !== -1);
             return valid || 'Please enter single letter';
         },
         when: function () {
@@ -52,7 +53,7 @@ guessesLeft = 9;
 }
 
 function ask() {
-if (!target.allGuessed() && guesseLeft > 0) {
+if (!target.allGuessed() && guessesLeft > 0) {
     console.log(target + '');
 }
 

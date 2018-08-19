@@ -19,5 +19,6 @@
 
         module.exports = letter;
 
-         // CAUTION: MAY NOT RUN. Issues in Terminal have arised. Looking up issues and working to fix to make game run //
+         // CAUTION: GAME WILL RUN BUT NOT IN THE WAY DESIRED. Looking up issues and working to fix to make game run according
+        // to README.md
    

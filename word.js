@@ -1,6 +1,7 @@
 const letter = require('./letter.js');
-// CAUTION: MAY NOT RUN. Issues in Terminal have arised. Looking up issues and working to fix to make game run //
-function word(wordString) 
+// CAUTION: GAME WILL RUN BUT NOT IN THE WAY DESIRED. Looking up issues and working to fix to make game run according
+// to README.md
+function word(wordString) { 
     this.letterArray = [];
 
 wordString.split('').forEach(element => {
@@ -21,6 +22,6 @@ this.makeGuess = function (guessedLetter) {
 this.allGuessed = function() {
     return this.letterArray.every((currentValue) => currentValue.guessed);
     }
-
+}
 
 module.exports = word;
