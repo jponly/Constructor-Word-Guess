@@ -1,6 +1,8 @@
 const Word = require('./word.js');
 const inquirer = require('inquirer');
-// CAUTION: GAME WILL RUN BUT NOT IN THE WAY DESIRED. Looking up issues and working to fix to make game run according
+// CAUTION: GAME WILL RUN BUT NOT IN THE WAY DESIRED. 
+//Word is not being concealed for letter guess, guesses remianing not counting down. 
+//Looking up issues and working to fix to make game run according
 // to README.md
 var target;
 var targetWord;
