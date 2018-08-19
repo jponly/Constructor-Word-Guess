@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jponly/Constructor-Word-Guess#readme",
   "dependencies": {
     "inquirer": "^6.1.0",
-    "prompt": "^1.0.0"
+    "prompt": "^1.0.0",
+    "require": "^2.4.20"
   }
 }

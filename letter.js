@@ -18,3 +18,6 @@
 
 
         module.exports = letter;
+
+         // CAUTION: MAY NOT RUN. Issues in Terminal have arised. Looking up issues and working to fix to make game run //
+   
